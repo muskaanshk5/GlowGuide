@@ -89,7 +89,7 @@ img_placeholder = st.empty()
 
 for _ in range(10):  # Repeat slideshow
     for img in images:
-        img_placeholder.image(img, use_column_width=True)
+        img_placeholder.image(img, use_container_width=True)
         time.sleep(2)  # Change every 2 seconds
 
 # ---- SIGNUP BOX ----
