@@ -1,5 +1,10 @@
 streamlit
 opencv-python
 numpy
+pandas
 pillow
-sqlite3
+requests
+scikit-learn
+tensorflow
+torch
+torchvision
